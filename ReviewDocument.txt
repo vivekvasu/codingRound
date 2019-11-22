@@ -1,0 +1,29 @@
+Below are the review comments
+
+1. browser setup is done in alss test classes which is not necessary
+2. objects are written in the test class itself which will reduce the reusability/readability/maintainability
+3. page object classes are missing
+4. objects are defined using pagefactory concepts but the pagefactory is not initialized anywhere
+5. No framework methods used
+6. No loggers/reporting added
+7. Drivers/ dependancies are not updated one
+
+
+What have i done ?
+1. Added pageobject classes
+2. Added all the objects and actions to the corresponding pageobject class
+3. Initialize pagefactory in MasterPageObject class and used inheritance
+4. Created separate drivermanager class to initialize the browser
+5. Created a sample framework which supports the logs,html logs, extent html report
+6. Added all the require driver actions in DriverUtilities
+7. Added MasterTest.java which is a parent for all the tests and is the entry point
+8. Updated pom.xml file with latest jars
+9. Created a xml testsuite with all the tests (RegressionSuite.xml)
+10. Added the xml test suite to pom.xml to run via pom.xml
+
+Find the logs in logs folder
+Find the report in reports folder
+
+kindly get back to me if you were expecting an alternative way.
+
+ 
