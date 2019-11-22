@@ -1,78 +1,45 @@
 package tests;
-import com.sun.javafx.PlatformUtil;
+import java.util.List;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.List;
+import pageObjects.FlightBookingPage;
+import utilities.DriverUtilities;
 
 public class FlightBookingTest extends MasterTest {
 
-    WebDriver driver = new ChromeDriver();
+	@Test (description = "Validate that the results are appearing for one way journey")
+	public void testThatResultsAppearForAOneWayJourney() {
 
+		String url = "https://www.cleartrip.com/";
+		DriverUtilities.openUrl(driver, url);
+		FlightBookingPage flightBookingPage = null;
+		flightBookingPage = new FlightBookingPage(driver);
+		flightBookingPage.clickOneWayRadioButton();
+		flightBookingPage.enterFromLocation("Bangalore");
 
-    @Test
-    public void testThatResultsAppearForAOneWayJourney() {
+		//wait for the auto complete options to appear for the origin
 
-        driver.get("https://www.cleartrip.com/");
-        waitFor(2000);
-        driver.findElement(By.id("OneWay")).click();
+		DriverUtilities.waitFor(5000);
+		List<WebElement> originOptions = driver.findElement(By.id("ui-id-1")).findElements(By.tagName("li"));
+		originOptions.get(0).click();
+		
+		flightBookingPage.enterToLocation("Delhi");
+		//wait for the auto complete options to appear for the destination
+		DriverUtilities.waitFor(5000);
+		//select the first item from the destination auto complete list
+		List<WebElement> destinationOptions = driver.findElement(By.id("ui-id-2")).findElements(By.tagName("li"));
+		destinationOptions.get(0).click();
 
-        driver.findElement(By.id("FromTag")).clear();
-        driver.findElement(By.id("FromTag")).sendKeys("Bangalore");
+		flightBookingPage.clickOnActiveDate();
 
-        //wait for the auto complete options to appear for the origin
+		//all fields filled in. Now click on search
+		flightBookingPage.clickOnSearchButton();
 
-        waitFor(2000);
-        List<WebElement> originOptions = driver.findElement(By.id("ui-id-1")).findElements(By.tagName("li"));
-        originOptions.get(0).click();
-
-        driver.findElement(By.id("toTag")).clear();
-        driver.findElement(By.id("toTag")).sendKeys("Delhi");
-
-        //wait for the auto complete options to appear for the destination
-
-        waitFor(2000);
-        //select the first item from the destination auto complete list
-        List<WebElement> destinationOptions = driver.findElement(By.id("ui-id-2")).findElements(By.tagName("li"));
-        destinationOptions.get(0).click();
-
-        driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[3]/td[7]/a")).click();
-
-        //all fields filled in. Now click on search
-        driver.findElement(By.id("SearchBtn")).click();
-
-        waitFor(5000);
-        //verify that result appears for the provided journey search
-        Assert.assertTrue(isElementPresent(By.className("searchSummary")));
-
-        //close the browser
-        driver.quit();
-
-    }
-
-
-    private void waitFor(int durationInMilliSeconds) {
-        try {
-            Thread.sleep(durationInMilliSeconds);
-        } catch (InterruptedException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
-    }
-
-
-    private boolean isElementPresent(By by) {
-        try {
-            driver.findElement(by);
-            return true;
-        } catch (NoSuchElementException e) {
-            return false;
-        }
-    }
-
+		//verify that result appears for the provided journey search
+		Assert.assertTrue(flightBookingPage.isSearchSummaryDisplayed());
+	}
 }
