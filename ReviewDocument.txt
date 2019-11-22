@@ -1,18 +1,18 @@
 Below are the review comments
 
-1. browser setup is done in alss test classes which is not necessary
+1. browser setup is done in all test classes which is not necessary
 2. objects are written in the test class itself which will reduce the reusability/readability/maintainability
-3. page object classes are missing
+3. page object classes should have added
 4. objects are defined using pagefactory concepts but the pagefactory is not initialized anywhere
 5. No framework methods used
 6. No loggers/reporting added
-7. Drivers/ dependancies are not updated one
+7. Drivers/ dependencies are not updated one
 
 
 What have i done ?
 1. Added pageobject classes
 2. Added all the objects and actions to the corresponding pageobject class
-3. Initialize pagefactory in MasterPageObject class and used inheritance
+3. Initialized pagefactory in MasterPageObject class and used inheritance
 4. Created separate drivermanager class to initialize the browser
 5. Created a sample framework which supports the logs,html logs, extent html report
 6. Added all the require driver actions in DriverUtilities
