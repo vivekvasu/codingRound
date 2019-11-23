@@ -1,6 +1,9 @@
 package tests;
 
 import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Properties;
 
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -20,12 +23,15 @@ import com.aventstack.extentreports.ExtentTest;
 import utilities.DriverManager;
 import utilities.DriverUtilities;
 import utilities.ExtentManager;
+import utilities.PropertyUtils;
 import utilities.Report;
 
 public class MasterTest {
 
 	public WebDriver driver;
+	public String testCaseName;
 	private static ExtentReports extent;
+	public static Properties inputProperties;
 	public static ThreadLocal<ExtentTest> methods = new ThreadLocal<ExtentTest>();
 	public static ThreadLocal <ExtentTest> parentTest = new ThreadLocal<ExtentTest>();
 
@@ -33,13 +39,16 @@ public class MasterTest {
 	public void doInitialSetUp(ITestContext context) {
 		PropertyConfigurator.configure("log4j.properties");
 		extent = ExtentManager.getInstance();
+		inputProperties = PropertyUtils.readPropertyFile("./resources/global.properties");
 	}
 
 	@BeforeTest
-	public void beforeTest(XmlTest method) {
-		Report.info("-------" + method.getName() + "-------");
-		driver = DriverManager.getWebDriver();
-		ExtentTest tests = extent.createTest(method.getName());
+	public void beforeTest(XmlTest test) {
+		Report.info("-------" + test.getName() + "-------");
+		testCaseName = test.getName();
+		driver = DriverManager.getWebDriver(inputProperties.getProperty("browser"));
+		DriverUtilities.openUrl(driver, inputProperties.getProperty("url"));
+		ExtentTest tests = extent.createTest(testCaseName);
 		parentTest.set(tests);
 	}
 
@@ -52,14 +61,16 @@ public class MasterTest {
 
 	@AfterMethod
 	public void afterMethod(ITestResult result) {
+		String screenshotPath = "";
 		if (result.getStatus() == ITestResult.SUCCESS) {
 			methods.get().pass("Test Passed");
 		} else if (result.getStatus() == ITestResult.FAILURE) {
 			methods.get().fail(result.getThrowable());
+			screenshotPath = testCaseName + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+			DriverUtilities.takeScreenshot(driver, screenshotPath.replace(" ", "") + ".png");
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			methods.get().skip(result.getThrowable());
 		}
-
 	}
 
 	@AfterTest
@@ -71,7 +82,6 @@ public class MasterTest {
 			DriverUtilities.quitDriver(driver);
 		}
 	}
-
 
 	@AfterSuite
 	public void quitBrowser() {

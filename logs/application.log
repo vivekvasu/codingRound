@@ -1,98 +1,117 @@
-2019-11-22 16:52:28 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
-2019-11-22 16:52:35 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
-2019-11-22 16:52:35 INFO  Report:11 - Entering method::openUrl()
-2019-11-22 16:52:47 INFO  Report:11 - Exiting method::openUrl() with 'true"
-2019-11-22 16:52:47 INFO  Report:11 - Entering method::clickOnHotelLink()
-2019-11-22 16:52:47 INFO  Report:11 - Entering method::clickOnElement()
-2019-11-22 16:53:02 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
-2019-11-22 16:53:02 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'true"
-2019-11-22 16:53:02 INFO  Report:11 - Entering method::enterLocality()
-2019-11-22 16:53:02 INFO  Report:11 - Entering method::enterText()
-2019-11-22 16:53:03 INFO  Report:11 - Exiting method::enterText() with 'Indiranagar, Bangalore"
-2019-11-22 16:53:03 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'Indiranagar, Bangalore"
-2019-11-22 16:53:03 INFO  Report:11 - Entering method::selectTravellerSelectionDropdown()
-2019-11-22 16:53:03 INFO  Report:11 - Entering method::selectDropdown()
-2019-11-22 16:53:04 INFO  Report:11 - Exiting method::selectDropdown() with 'true"
-2019-11-22 16:53:04 INFO  Report:11 - Exiting method::selectTravellerSelectionDropdown() with 'true"
-2019-11-22 16:53:04 INFO  Report:11 - Entering method::clickOnSearchButton()
-2019-11-22 16:53:04 INFO  Report:11 - Entering method::clickOnElement()
-2019-11-22 16:53:04 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
-2019-11-22 16:53:04 INFO  Report:11 - Exiting method::clickOnSearchButton() with 'true"
-2019-11-22 16:53:04 INFO  Report:11 - Entering method::deleteCookies()
-2019-11-22 16:53:10 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
-2019-11-22 16:53:10 INFO  Report:11 - Entering method::closeBrowser()
-2019-11-22 16:53:11 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
-2019-11-22 16:53:11 INFO  Report:11 - Entering method::quitDriver()
-2019-11-22 16:53:12 INFO  Report:11 - Exiting method::quitDriver() with 'true"
-2019-11-22 16:53:12 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
-2019-11-22 16:53:16 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
-2019-11-22 16:53:16 INFO  Report:11 - Entering method::openUrl()
-2019-11-22 16:53:25 INFO  Report:11 - Exiting method::openUrl() with 'true"
-2019-11-22 16:53:25 INFO  Report:11 - Entering method::clickOnYourTripsLink()
-2019-11-22 16:53:25 INFO  Report:11 - Entering method::clickOnElement()
-2019-11-22 16:53:25 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
-2019-11-22 16:53:25 INFO  Report:11 - Exiting method::clickOnYourTripsLink() with 'true"
-2019-11-22 16:53:25 INFO  Report:11 - Entering method::clickOnSignInLink()
-2019-11-22 16:53:25 INFO  Report:11 - Entering method::clickOnElement()
-2019-11-22 16:53:26 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
-2019-11-22 16:53:26 INFO  Report:11 - Exiting method::clickOnSignInLink() with 'true"
-2019-11-22 16:53:26 INFO  Report:11 - Entering method::switchToSignInFrame()
-2019-11-22 16:53:26 INFO  Report:11 - Entering method::SwitchToFrame()
-2019-11-22 16:53:26 INFO  Report:11 - Exiting method::SwitchToFrame() with 'true"
-2019-11-22 16:53:26 INFO  Report:11 - Exiting method::switchToSignInFrame() with 'true"
-2019-11-22 16:53:26 INFO  Report:11 - Entering method::clickOnSignInButton()
-2019-11-22 16:53:26 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
-2019-11-22 16:53:28 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
-2019-11-22 16:53:28 INFO  Report:11 - Entering method::clickOnElement()
-2019-11-22 16:53:28 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
-2019-11-22 16:53:28 INFO  Report:11 - Exiting method::clickOnSignInButton() with 'true"
-2019-11-22 16:53:28 INFO  Report:11 - Entering method::getError()
-2019-11-22 16:53:28 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
-2019-11-22 16:53:28 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
-2019-11-22 16:53:28 INFO  Report:11 - Entering method::getText()
-2019-11-22 16:53:28 INFO  Report:11 - Exiting method::getText() with 'There were errors in your submission
+2019-11-23 11:27:51 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 11:27:51 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
+2019-11-23 11:27:57 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 11:28:02 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 11:28:02 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
+2019-11-23 11:28:03 INFO  Report:11 - Entering method::clickOnHotelLink()
+2019-11-23 11:28:03 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 11:28:13 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 11:28:13 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'true"
+2019-11-23 11:28:13 INFO  Report:11 - Entering method::enterLocality()
+2019-11-23 11:28:13 INFO  Report:11 - Entering method::enterText()
+2019-11-23 11:28:15 INFO  Report:11 - Exiting method::enterText() with 'Indiranagar, Bangalore"
+2019-11-23 11:28:15 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'Indiranagar, Bangalore"
+2019-11-23 11:28:15 INFO  Report:11 - Entering method::selectTravellerSelectionDropdown()
+2019-11-23 11:28:15 INFO  Report:11 - Entering method::selectDropdown()
+2019-11-23 11:28:15 INFO  Report:11 - Exiting method::selectDropdown() with 'true"
+2019-11-23 11:28:15 INFO  Report:11 - Exiting method::selectTravellerSelectionDropdown() with 'true"
+2019-11-23 11:28:15 INFO  Report:11 - Entering method::clickOnSearchButton()
+2019-11-23 11:28:15 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 11:28:15 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 11:28:15 INFO  Report:11 - Exiting method::clickOnSearchButton() with 'true"
+2019-11-23 11:28:15 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 11:28:22 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 11:28:22 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 11:28:23 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 11:28:23 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 11:28:23 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 11:28:23 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 11:28:28 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 11:28:35 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 11:28:35 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 11:28:35 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 11:28:43 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 11:28:43 INFO  Report:11 - Entering method::clickOnYourTripsLink()
+2019-11-23 11:28:43 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 11:28:44 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 11:28:44 INFO  Report:11 - Exiting method::clickOnYourTripsLink() with 'true"
+2019-11-23 11:28:44 INFO  Report:11 - Entering method::clickOnSignInLink()
+2019-11-23 11:28:44 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 11:28:45 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 11:28:45 INFO  Report:11 - Exiting method::clickOnSignInLink() with 'true"
+2019-11-23 11:28:45 INFO  Report:11 - Entering method::switchToSignInFrame()
+2019-11-23 11:28:45 INFO  Report:11 - Entering method::SwitchToFrame()
+2019-11-23 11:28:45 INFO  Report:11 - Exiting method::SwitchToFrame() with 'true"
+2019-11-23 11:28:45 INFO  Report:11 - Exiting method::switchToSignInFrame() with 'true"
+2019-11-23 11:28:45 INFO  Report:11 - Entering method::clickOnSignInButton()
+2019-11-23 11:28:45 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 11:28:46 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 11:28:46 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 11:28:47 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 11:28:47 INFO  Report:11 - Exiting method::clickOnSignInButton() with 'true"
+2019-11-23 11:28:47 INFO  Report:11 - Entering method::getError()
+2019-11-23 11:28:47 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 11:28:47 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 11:28:47 INFO  Report:11 - Entering method::getText()
+2019-11-23 11:28:47 INFO  Report:11 - Exiting method::getText() with 'There were errors in your submission
 Your username is a required field
 Your account password is a required field"
-2019-11-22 16:53:28 INFO  Report:11 - Exiting method::getError() with 'There were errors in your submission
+2019-11-23 11:28:47 INFO  Report:11 - Exiting method::getError() with 'There were errors in your submission
 Your username is a required field
 Your account password is a required field"
-2019-11-22 16:53:28 INFO  Report:11 - Entering method::deleteCookies()
-2019-11-22 16:53:34 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
-2019-11-22 16:53:34 INFO  Report:11 - Entering method::closeBrowser()
-2019-11-22 16:53:36 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
-2019-11-22 16:53:36 INFO  Report:11 - Entering method::quitDriver()
-2019-11-22 16:53:37 INFO  Report:11 - Exiting method::quitDriver() with 'true"
-2019-11-22 16:53:37 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
-2019-11-22 16:53:41 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
-2019-11-22 16:53:41 INFO  Report:11 - Entering method::openUrl()
-2019-11-22 16:53:51 INFO  Report:11 - Exiting method::openUrl() with 'true"
-2019-11-22 16:53:51 INFO  Report:11 - Entering method::clickOneWayRadioButton()
-2019-11-22 16:53:51 INFO  Report:11 - Entering method::clickOnElement()
-2019-11-22 16:53:51 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
-2019-11-22 16:53:51 INFO  Report:11 - Exiting method::clickOneWayRadioButton() with 'true"
-2019-11-22 16:53:51 INFO  Report:11 - Entering method::enterFromLocation()
-2019-11-22 16:53:51 INFO  Report:11 - Entering method::enterText()
-2019-11-22 16:53:52 INFO  Report:11 - Exiting method::enterText() with 'Bangalore"
-2019-11-22 16:53:52 INFO  Report:11 - Exiting method::enterFromLocation() with 'Bangalore"
-2019-11-22 16:53:57 INFO  Report:11 - Entering method::enterToLocation()
-2019-11-22 16:53:57 INFO  Report:11 - Entering method::enterText()
-2019-11-22 16:53:57 INFO  Report:11 - Exiting method::enterText() with 'Delhi"
-2019-11-22 16:53:57 INFO  Report:11 - Exiting method::enterToLocation() with 'Delhi"
-2019-11-22 16:54:02 INFO  Report:11 - Entering method::clickOnActiveDate()
-2019-11-22 16:54:02 INFO  Report:11 - Entering method::clickOnElement()
-2019-11-22 16:54:03 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
-2019-11-22 16:54:03 INFO  Report:11 - Exiting method::clickOnActiveDate() with 'true"
-2019-11-22 16:54:03 INFO  Report:11 - Entering method::clickOnSearchButton()
-2019-11-22 16:54:03 INFO  Report:11 - Entering method::clickOnElement()
-2019-11-22 16:54:04 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
-2019-11-22 16:54:04 INFO  Report:11 - Exiting method::clickOnSearchButton() with 'true"
-2019-11-22 16:54:04 INFO  Report:11 - Entering method::isSearchSummaryDisplayed()
-2019-11-22 16:54:04 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
-2019-11-22 16:54:04 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
-2019-11-22 16:54:04 INFO  Report:11 - Exiting method::isSearchSummaryDisplayed() with 'true"
-2019-11-22 16:54:04 INFO  Report:11 - Entering method::deleteCookies()
-2019-11-22 16:54:13 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
-2019-11-22 16:54:13 INFO  Report:11 - Entering method::closeBrowser()
-2019-11-22 16:54:15 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
-2019-11-22 16:54:15 INFO  Report:11 - Entering method::quitDriver()
-2019-11-22 16:54:16 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 11:28:47 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 11:28:51 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 11:28:51 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 11:28:52 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 11:28:52 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 11:28:52 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 11:28:52 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
+2019-11-23 11:28:57 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 11:29:04 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 11:29:04 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
+2019-11-23 11:29:04 INFO  Report:11 - Entering method::clickOneWayRadioButton()
+2019-11-23 11:29:04 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 11:29:05 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 11:29:05 INFO  Report:11 - Exiting method::clickOneWayRadioButton() with 'true"
+2019-11-23 11:29:05 INFO  Report:11 - Entering method::enterFromLocation()
+2019-11-23 11:29:05 INFO  Report:11 - Entering method::enterText()
+2019-11-23 11:29:05 INFO  Report:11 - Exiting method::enterText() with 'Bangalore"
+2019-11-23 11:29:05 INFO  Report:11 - Exiting method::enterFromLocation() with 'Bangalore"
+2019-11-23 11:29:05 INFO  Report:11 - Entering method::isFromSuggestionBoxLoaded()
+2019-11-23 11:29:05 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 11:29:08 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 11:29:08 INFO  Report:11 - Exiting method::isFromSuggestionBoxLoaded() with 'true"
+2019-11-23 11:29:08 INFO  Report:11 - Entering method::getSuggestionListFromOriginDropdown()
+2019-11-23 11:29:08 INFO  Report:11 - Entering method::getAllWebElements()
+2019-11-23 11:29:08 INFO  Report:11 - Exiting method::getAllWebElements() with size 1
+2019-11-23 11:29:08 INFO  Report:11 - Exiting method::getSuggestionListFromOriginDropdown() with size '1"
+2019-11-23 11:29:08 INFO  Report:11 - Entering method::enterToLocation()
+2019-11-23 11:29:08 INFO  Report:11 - Entering method::enterText()
+2019-11-23 11:29:08 INFO  Report:11 - Exiting method::enterText() with 'Delhi"
+2019-11-23 11:29:08 INFO  Report:11 - Exiting method::enterToLocation() with 'Delhi"
+2019-11-23 11:29:08 INFO  Report:11 - Entering method::isToSuggestionBoxLoaded()
+2019-11-23 11:29:08 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 11:29:12 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 11:29:12 INFO  Report:11 - Exiting method::isToSuggestionBoxLoaded() with 'true"
+2019-11-23 11:29:12 INFO  Report:11 - Entering method::getSuggestionListfromDestinationDropdown()
+2019-11-23 11:29:12 INFO  Report:11 - Entering method::getAllWebElements()
+2019-11-23 11:29:12 INFO  Report:11 - Exiting method::getAllWebElements() with size 1
+2019-11-23 11:29:12 INFO  Report:11 - Exiting method::getSuggestionListfromDestinationDropdown() with size '1"
+2019-11-23 11:29:13 INFO  Report:11 - Entering method::clickOnActiveDate()
+2019-11-23 11:29:13 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 11:29:13 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 11:29:13 INFO  Report:11 - Exiting method::clickOnActiveDate() with 'true"
+2019-11-23 11:29:13 INFO  Report:11 - Entering method::clickOnSearchButton()
+2019-11-23 11:29:13 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 11:29:13 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 11:29:13 INFO  Report:11 - Exiting method::clickOnSearchButton() with 'true"
+2019-11-23 11:29:13 INFO  Report:11 - Entering method::isSearchSummaryDisplayed()
+2019-11-23 11:29:13 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 11:29:14 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 11:29:14 INFO  Report:11 - Exiting method::isSearchSummaryDisplayed() with 'true"
+2019-11-23 11:29:14 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 11:29:17 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 11:29:17 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 11:29:18 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 11:29:18 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 11:29:19 INFO  Report:11 - Exiting method::quitDriver() with 'true"

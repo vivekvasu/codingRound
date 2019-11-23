@@ -1,39 +1,34 @@
 package tests;
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.FlightBookingPage;
-import utilities.DriverUtilities;
 
 public class FlightBookingTest extends MasterTest {
 
 	@Test (description = "Validate that the results are appearing for one way journey")
 	public void testThatResultsAppearForAOneWayJourney() {
 
-		String url = "https://www.cleartrip.com/";
-		DriverUtilities.openUrl(driver, url);
 		FlightBookingPage flightBookingPage = null;
 		flightBookingPage = new FlightBookingPage(driver);
 		flightBookingPage.clickOneWayRadioButton();
-		flightBookingPage.enterFromLocation("Bangalore");
+		flightBookingPage.enterFromLocation(inputProperties.getProperty("fromLocation"));
 
 		//wait for the auto complete options to appear for the origin
-
-		DriverUtilities.waitFor(5000);
-		List<WebElement> originOptions = driver.findElement(By.id("ui-id-1")).findElements(By.tagName("li"));
+		flightBookingPage.isFromSuggestionBoxLoaded();
+		List<WebElement> originOptions = flightBookingPage.getSuggestionListFromOriginDropdown();
 		originOptions.get(0).click();
 		
-		flightBookingPage.enterToLocation("Delhi");
+		flightBookingPage.enterToLocation(inputProperties.getProperty("toLocation"));
+		
 		//wait for the auto complete options to appear for the destination
-		DriverUtilities.waitFor(5000);
+		flightBookingPage.isToSuggestionBoxLoaded();
 		//select the first item from the destination auto complete list
-		List<WebElement> destinationOptions = driver.findElement(By.id("ui-id-2")).findElements(By.tagName("li"));
+		List<WebElement> destinationOptions = flightBookingPage.getSuggestionListfromDestinationDropdown();
 		destinationOptions.get(0).click();
-
 		flightBookingPage.clickOnActiveDate();
 
 		//all fields filled in. Now click on search

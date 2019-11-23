@@ -9,6 +9,7 @@ public class SignInTest extends MasterTest {
 
 	@Test (description = "Validate that the error is thrown when details are missing")
 	public void shouldThrowAnErrorIfSignInDetailsAreMissing() {
+		
 		SignInPage signInPage = null;
 		String url = "https://www.cleartrip.com/";
 		DriverUtilities.openUrl(driver, url);

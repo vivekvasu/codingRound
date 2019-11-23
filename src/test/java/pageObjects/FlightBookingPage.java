@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,11 +27,21 @@ public class FlightBookingPage extends MasterPageObject {
 
 	@FindBy(id = "SearchBtn")
 	private WebElement searchButton;
-	
+
 	@FindBy(xpath = "//div[@id='ui-datepicker-div']//a[contains(@class,'ui-state-default ui-state-highlight ui-state-active')]")
 	private WebElement date;
 
+	@FindBy(xpath = "//ul[@id='ui-id-1']//li")
+	private WebElement fromSuggestion;
+
+	@FindBy(xpath = "//ul[@id='ui-id-2']//li")
+	private WebElement toSuggestion;
+
 	private By searchSummary = By.className("searchSummary");
+	
+	private By fromSuggestionList = By.xpath("//ul[@id='ui-id-1']//li");
+
+	private By toSuggestionList = By.xpath("//ul[@id='ui-id-2']//li");
 
 	/**
 	 * This method is to click on One Way 
@@ -103,7 +115,7 @@ public class FlightBookingPage extends MasterPageObject {
 		Report.info("Exiting method::clickOnSearchButton() with '" + isClicked + '"');
 		return isClicked;
 	}
-	
+
 	/**
 	 * This method is to click on active date
 	 * 
@@ -116,5 +128,57 @@ public class FlightBookingPage extends MasterPageObject {
 		isClicked = DriverUtilities.clickOnElement(date);
 		Report.info("Exiting method::clickOnActiveDate() with '" + isClicked + '"');
 		return isClicked;
+	}
+
+	/**
+	 * This method is to wait for the from suggestion list box
+	 * @return - True/False
+	 */
+	public boolean isFromSuggestionBoxLoaded()
+	{
+		Report.info("Entering method::isFromSuggestionBoxLoaded()");
+		boolean isDisplayed = false;
+		isDisplayed = DriverUtilities.waitForElementToBecomeVisible(driver, fromSuggestion, 5);
+		Report.info("Exiting method::isFromSuggestionBoxLoaded() with '" + isDisplayed + '"');
+		return isDisplayed;
+	}
+
+	/**
+	 * This method is to wait for the to suggestion list box
+	 * @return - True/False
+	 */
+	public boolean isToSuggestionBoxLoaded()
+	{
+		Report.info("Entering method::isToSuggestionBoxLoaded()");
+		boolean isDisplayed = false;
+		isDisplayed = DriverUtilities.waitForElementToBecomeVisible(driver, toSuggestion, 5);
+		Report.info("Exiting method::isToSuggestionBoxLoaded() with '" + isDisplayed + '"');
+		return isDisplayed;
+	}
+
+	/**
+	 * This method is to fetch all the elements from 'From' dropdown
+	 * @return - List of suggestions
+	 */
+	public List<WebElement> getSuggestionListFromOriginDropdown()
+	{
+		Report.info("Entering method::getSuggestionListFromOriginDropdown()");
+		List<WebElement> elements = null;
+		elements = DriverUtilities.getAllWebElements(driver, fromSuggestionList);
+		Report.info("Exiting method::getSuggestionListFromOriginDropdown() with size '" + elements.size() + '"');
+		return elements;
+	}
+
+	/**
+	 * This method is to fetch all the elements from 'To' dropdown
+	 * @return - List of suggestions
+	 */
+	public List<WebElement> getSuggestionListfromDestinationDropdown()
+	{
+		Report.info("Entering method::getSuggestionListfromDestinationDropdown()");
+		List<WebElement> elements = null;
+		elements = DriverUtilities.getAllWebElements(driver, toSuggestionList);
+		Report.info("Exiting method::getSuggestionListfromDestinationDropdown() with size '" + elements.size() + '"');
+		return elements;
 	}
 }

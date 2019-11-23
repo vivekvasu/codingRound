@@ -1,6 +1,12 @@
 package utilities;
 
+import java.io.File;
+import java.util.List;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -217,7 +223,7 @@ public class DriverUtilities {
 		Report.info("Exiting method::waitForElementToBecomeVisible() with '" + isSuccess + '"');
 		return isSuccess;
 	}
-	
+
 	/**
 	 * This method is to wait for the webElement to become visible
 	 *
@@ -240,7 +246,7 @@ public class DriverUtilities {
 		Report.info("Exiting method::waitForElementToBecomeVisible() with '" + isSuccess + '"');
 		return isSuccess;
 	}
-	
+
 	/**
 	 * This is force wait
 	 * 
@@ -253,5 +259,44 @@ public class DriverUtilities {
 			e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
 		}
 	}
+
+	/**
+	 * This method is to take screenshot
+	 * 
+	 * @param driver
+	 * @param filePath
+	 */
+	public static void takeScreenshot(WebDriver driver, String filePath) {
+		Report.info("Entering method::takeScreenshot() with '" + filePath + '"');
+		try {
+			TakesScreenshot screenshot = ((TakesScreenshot) driver);
+			File sourceFile = screenshot.getScreenshotAs(OutputType.FILE);
+			File destFile = new File(filePath);
+			FileUtils.copyFile(sourceFile, destFile);
+		} catch (Exception e) {
+			Report.info("Exception occurred in taking screenshot");
+			Report.info("Exception : " + e.getMessage());
+		}
+		Report.info("Exiting method::takeScreenshot()");
+	}
 	
+	/**
+	 * This method is to get all the child web elements from parent element
+	 * 
+	 * @param driver
+	 * @param byObject
+	 * @return - List of elements
+	 */
+	public static List<WebElement> getAllWebElements(WebDriver driver, By element) {
+		Report.info("Entering method::getAllWebElements()");
+		List<WebElement> elementList = null;
+		try {
+			elementList = driver.findElements(element);
+		} catch (Exception e) {
+			Report.info("Exception occurred in fetching child web elements");
+			Report.info("Exception : " + e.getMessage());
+		}
+		Report.info("Exiting method::getAllWebElements() with size " + elementList.size());
+		return elementList;
+	}
 }

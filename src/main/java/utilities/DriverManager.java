@@ -12,12 +12,16 @@ public class DriverManager {
 	 * This method is to get the webdriver
 	 * @return - The WebDriver
 	 */
-	public static WebDriver getWebDriver()
+	public static WebDriver getWebDriver(String browser)
 	{
-		setDriverPath();
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--disable-notifications");
-		WebDriver driver = new ChromeDriver(options);
+		WebDriver driver = null ;
+		if(browser.equalsIgnoreCase("chrome"))
+		{
+			setDriverPath();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--disable-notifications");
+			driver = new ChromeDriver(options);
+		}
 		driver.manage().window().maximize();
 		return driver;
 	}
