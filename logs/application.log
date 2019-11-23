@@ -115,3 +115,663 @@ Your account password is a required field"
 2019-11-23 11:29:18 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
 2019-11-23 11:29:18 INFO  Report:11 - Entering method::quitDriver()
 2019-11-23 11:29:19 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:19:33 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:19:33 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
+2019-11-23 12:19:44 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:19:54 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:19:54 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
+2019-11-23 12:19:54 INFO  Report:11 - Entering method::clickOnHotelLink()
+2019-11-23 12:19:54 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 12:20:02 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 12:20:02 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'true"
+2019-11-23 12:20:02 INFO  Report:11 - Entering method::enterLocality()
+2019-11-23 12:20:02 INFO  Report:11 - Entering method::enterText()
+2019-11-23 12:20:03 INFO  Report:11 - Exiting method::enterText() with 'Indiranagar, Bangalore"
+2019-11-23 12:20:03 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'Indiranagar, Bangalore"
+2019-11-23 12:20:03 INFO  Report:11 - Entering method::selectTravellerSelectionDropdown()
+2019-11-23 12:20:03 INFO  Report:11 - Entering method::selectDropdown()
+2019-11-23 12:20:04 INFO  Report:11 - Exiting method::selectDropdown() with 'true"
+2019-11-23 12:20:04 INFO  Report:11 - Exiting method::selectTravellerSelectionDropdown() with 'true"
+2019-11-23 12:20:04 INFO  Report:11 - Entering method::clickOnSearchButton()
+2019-11-23 12:20:04 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 12:20:04 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 12:20:04 INFO  Report:11 - Exiting method::clickOnSearchButton() with 'true"
+2019-11-23 12:20:04 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:20:19 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:20:19 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:20:22 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:20:22 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:20:22 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:20:23 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:20:26 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:20:34 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:20:34 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:20:34 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:20:40 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:20:40 INFO  Report:11 - Entering method::clickOnYourTripsLink()
+2019-11-23 12:20:40 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 12:20:41 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 12:20:41 INFO  Report:11 - Exiting method::clickOnYourTripsLink() with 'true"
+2019-11-23 12:20:41 INFO  Report:11 - Entering method::clickOnSignInLink()
+2019-11-23 12:20:41 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 12:20:41 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 12:20:41 INFO  Report:11 - Exiting method::clickOnSignInLink() with 'true"
+2019-11-23 12:20:41 INFO  Report:11 - Entering method::switchToSignInFrame()
+2019-11-23 12:20:41 INFO  Report:11 - Entering method::SwitchToFrame()
+2019-11-23 12:20:41 INFO  Report:11 - Exiting method::SwitchToFrame() with 'true"
+2019-11-23 12:20:41 INFO  Report:11 - Exiting method::switchToSignInFrame() with 'true"
+2019-11-23 12:20:41 INFO  Report:11 - Entering method::clickOnSignInButton()
+2019-11-23 12:20:41 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 12:20:42 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 12:20:42 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 12:20:43 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 12:20:43 INFO  Report:11 - Exiting method::clickOnSignInButton() with 'true"
+2019-11-23 12:20:43 INFO  Report:11 - Entering method::getError()
+2019-11-23 12:20:43 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 12:20:43 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 12:20:43 INFO  Report:11 - Entering method::getText()
+2019-11-23 12:20:43 INFO  Report:11 - Exiting method::getText() with 'There were errors in your submission
+Your username is a required field
+Your account password is a required field"
+2019-11-23 12:20:43 INFO  Report:11 - Exiting method::getError() with 'There were errors in your submission
+Your username is a required field
+Your account password is a required field"
+2019-11-23 12:20:43 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:20:48 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:20:48 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:20:50 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:20:50 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:20:50 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:20:51 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
+2019-11-23 12:20:54 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:21:03 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:21:03 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
+2019-11-23 12:21:03 INFO  Report:11 - Entering method::clickOneWayRadioButton()
+2019-11-23 12:21:03 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 12:21:03 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 12:21:03 INFO  Report:11 - Exiting method::clickOneWayRadioButton() with 'true"
+2019-11-23 12:21:03 INFO  Report:11 - Entering method::enterFromLocation()
+2019-11-23 12:21:04 INFO  Report:11 - Entering method::enterText()
+2019-11-23 12:21:04 INFO  Report:11 - Exiting method::enterText() with 'Bangalore"
+2019-11-23 12:21:04 INFO  Report:11 - Exiting method::enterFromLocation() with 'Bangalore"
+2019-11-23 12:21:04 INFO  Report:11 - Entering method::isFromSuggestionBoxLoaded()
+2019-11-23 12:21:04 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 12:21:06 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 12:21:06 INFO  Report:11 - Exiting method::isFromSuggestionBoxLoaded() with 'true"
+2019-11-23 12:21:06 INFO  Report:11 - Entering method::getSuggestionListFromOriginDropdown()
+2019-11-23 12:21:06 INFO  Report:11 - Entering method::getAllWebElements()
+2019-11-23 12:21:06 INFO  Report:11 - Exiting method::getAllWebElements() with size 1
+2019-11-23 12:21:06 INFO  Report:11 - Exiting method::getSuggestionListFromOriginDropdown() with size '1"
+2019-11-23 12:21:06 INFO  Report:11 - Entering method::enterToLocation()
+2019-11-23 12:21:06 INFO  Report:11 - Entering method::enterText()
+2019-11-23 12:21:06 INFO  Report:11 - Exiting method::enterText() with 'Delhi"
+2019-11-23 12:21:06 INFO  Report:11 - Exiting method::enterToLocation() with 'Delhi"
+2019-11-23 12:21:06 INFO  Report:11 - Entering method::isToSuggestionBoxLoaded()
+2019-11-23 12:21:06 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 12:21:08 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 12:21:08 INFO  Report:11 - Exiting method::isToSuggestionBoxLoaded() with 'true"
+2019-11-23 12:21:08 INFO  Report:11 - Entering method::getSuggestionListfromDestinationDropdown()
+2019-11-23 12:21:08 INFO  Report:11 - Entering method::getAllWebElements()
+2019-11-23 12:21:08 INFO  Report:11 - Exiting method::getAllWebElements() with size 1
+2019-11-23 12:21:08 INFO  Report:11 - Exiting method::getSuggestionListfromDestinationDropdown() with size '1"
+2019-11-23 12:21:08 INFO  Report:11 - Entering method::clickOnActiveDate()
+2019-11-23 12:21:08 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 12:21:08 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 12:21:08 INFO  Report:11 - Exiting method::clickOnActiveDate() with 'true"
+2019-11-23 12:21:08 INFO  Report:11 - Entering method::clickOnSearchButton()
+2019-11-23 12:21:08 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 12:21:09 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 12:21:09 INFO  Report:11 - Exiting method::clickOnSearchButton() with 'true"
+2019-11-23 12:21:09 INFO  Report:11 - Entering method::isSearchSummaryDisplayed()
+2019-11-23 12:21:09 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 12:21:09 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 12:21:09 INFO  Report:11 - Exiting method::isSearchSummaryDisplayed() with 'true"
+2019-11-23 12:21:09 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:21:11 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:21:11 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:21:14 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:21:14 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:21:14 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:30:44 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:30:44 INFO  Report:11 - -------Default test-------
+2019-11-23 12:30:50 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:30:56 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:30:56 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:30:56 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\Vivek Vasu\git\codingRound\screenshotDefault test2019-11-2312:30:56.png"
+2019-11-23 12:30:57 INFO  Report:11 - Exception occurred in taking screenshot
+2019-11-23 12:30:57 INFO  Report:11 - Exception : The filename, directory name, or volume label syntax is incorrect
+2019-11-23 12:30:57 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 12:30:57 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:30:59 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:30:59 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:31:02 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:31:02 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:31:02 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:32:34 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:32:34 INFO  Report:11 - -------Default test-------
+2019-11-23 12:32:40 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:32:52 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:32:52 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:32:52 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\Vivek Vasu\git\codingRound\screenshot\Default test2019-11-2312:32:52.png"
+2019-11-23 12:32:53 INFO  Report:11 - Exception occurred in taking screenshot
+2019-11-23 12:32:53 INFO  Report:11 - Exception : C:\Users\Vivek Vasu\git\codingRound\screenshot\Default test2019-11-2312:32:52.png (The filename, directory name, or volume label syntax is incorrect)
+2019-11-23 12:32:53 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 12:32:53 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:32:55 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:32:55 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:32:57 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:32:57 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:32:57 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:33:45 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:33:45 INFO  Report:11 - -------Default test-------
+2019-11-23 12:33:50 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:34:02 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:34:02 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:34:02 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\VivekVasu\git\codingRound\screenshot\Defaulttest2019-11-2312:34:02.png"
+2019-11-23 12:34:02 INFO  Report:11 - Exception occurred in taking screenshot
+2019-11-23 12:34:02 INFO  Report:11 - Exception : Destination 'C:\Users\VivekVasu\git\codingRound\screenshot' directory cannot be created
+2019-11-23 12:34:02 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 12:34:02 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:34:05 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:34:05 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:34:07 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:34:07 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:34:08 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:36:47 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:36:47 INFO  Report:11 - -------Default test-------
+2019-11-23 12:36:53 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:37:06 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:37:06 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:37:06 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\VivekVasu\git\codingRound\screenshot\Defaulttest2019-11-2312:37:06.png"
+2019-11-23 12:37:07 INFO  Report:11 - Exception occurred in taking screenshot
+2019-11-23 12:37:07 INFO  Report:11 - Exception : Destination 'C:\Users\VivekVasu\git\codingRound\screenshot' directory cannot be created
+2019-11-23 12:37:07 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 12:37:07 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:37:09 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:37:09 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:37:11 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:37:11 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:37:11 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:37:57 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:37:57 INFO  Report:11 - -------Default test-------
+2019-11-23 12:38:02 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:38:48 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:38:48 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:38:48 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\VivekVasu\git\codingRound\screenshot\Defaulttest2019-11-2312:38:48.png"
+2019-11-23 12:38:48 INFO  Report:11 - Exception occurred in taking screenshot
+2019-11-23 12:38:48 INFO  Report:11 - Exception : Destination 'C:\Users\VivekVasu\git\codingRound\screenshot' directory cannot be created
+2019-11-23 12:38:48 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 12:38:48 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:38:50 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:38:50 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:38:52 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:38:52 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:38:53 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:40:40 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:40:40 INFO  Report:11 - -------Default test-------
+2019-11-23 12:40:45 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:41:46 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:41:46 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:41:46 INFO  Report:11 - Entering method::takeScreenshot() with './resources/2019-11-2312:41:46.png"
+2019-11-23 12:41:47 INFO  Report:11 - Exception occurred in taking screenshot
+2019-11-23 12:41:47 INFO  Report:11 - Exception : The filename, directory name, or volume label syntax is incorrect
+2019-11-23 12:41:47 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 12:41:47 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:41:49 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:41:49 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:41:51 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:41:51 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:41:52 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:42:40 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:42:40 INFO  Report:11 - -------Default test-------
+2019-11-23 12:42:46 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:43:32 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:43:32 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:43:32 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\VivekVasu\git\codingRound/screenshot/2019-11-2312:43:32.png"
+2019-11-23 12:43:33 INFO  Report:11 - Exception occurred in taking screenshot
+2019-11-23 12:43:33 INFO  Report:11 - Exception : Destination 'C:\Users\VivekVasu\git\codingRound\screenshot' directory cannot be created
+2019-11-23 12:43:33 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 12:43:33 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:43:34 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:43:34 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:43:35 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:43:35 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:43:35 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:45:12 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:45:12 INFO  Report:11 - -------Default test-------
+2019-11-23 12:45:18 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:45:57 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:45:57 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:45:57 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\VivekVasu\git\codingRound\screenshot\2019-11-2312:45:57.png"
+2019-11-23 12:45:58 INFO  Report:11 - Exception occurred in taking screenshot
+2019-11-23 12:45:58 INFO  Report:11 - Exception : Destination 'C:\Users\VivekVasu\git\codingRound\screenshot' directory cannot be created
+2019-11-23 12:45:58 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 12:45:58 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:46:00 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:46:00 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:46:03 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:46:03 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:46:03 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:47:45 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:47:45 INFO  Report:11 - -------Default test-------
+2019-11-23 12:47:51 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:48:00 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:48:00 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:48:00 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\VivekVasu\git\codingRound\screenshot\2019-11-23.png"
+2019-11-23 12:48:01 INFO  Report:11 - Exception occurred in taking screenshot
+2019-11-23 12:48:01 INFO  Report:11 - Exception : Destination 'C:\Users\VivekVasu\git\codingRound\screenshot' directory cannot be created
+2019-11-23 12:48:01 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 12:48:01 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:48:04 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:48:04 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:48:06 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:48:06 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:48:06 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:49:08 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:49:08 INFO  Report:11 - -------Default test-------
+2019-11-23 12:49:14 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:49:25 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:49:25 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:49:26 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\VivekVasu\git\codingRound\screenshot\2019-11-23.png"
+2019-11-23 12:53:52 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:53:52 INFO  Report:11 - -------Default test-------
+2019-11-23 12:53:57 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:54:08 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:54:08 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:54:09 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\Vivek Vasu\git\codingRound\screenshot\2019-11-23.png"
+2019-11-23 12:54:09 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 12:54:09 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:54:12 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:54:12 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:54:14 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:54:14 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:54:15 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 12:56:43 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 12:56:43 INFO  Report:11 - -------Default test-------
+2019-11-23 12:56:49 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 12:57:16 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 12:57:16 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 12:57:16 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\Vivek Vasu\git\codingRound\screenshot\2019-11-23.png"
+2019-11-23 12:57:16 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 12:57:17 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 12:57:19 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 12:57:19 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 12:57:22 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 12:57:22 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 12:57:22 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 13:01:50 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 13:01:50 INFO  Report:11 - -------Default test-------
+2019-11-23 13:01:55 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 13:02:08 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 13:02:08 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 13:02:08 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\Vivek Vasu\git\codingRound\screenshot\2019-11-23.png"
+2019-11-23 13:02:09 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 13:02:09 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 13:02:11 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 13:02:11 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 13:02:13 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 13:02:13 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 13:02:13 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 13:06:59 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 13:06:59 INFO  Report:11 - -------Default test-------
+2019-11-23 13:07:04 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 13:07:58 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 13:07:58 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 13:07:58 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\Vivek Vasu\git\codingRound\screenshot\Default test1574494678185.png"
+2019-11-23 13:07:58 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 13:07:58 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 13:08:01 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 13:08:01 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 13:08:03 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 13:08:03 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 13:08:03 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 13:09:24 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 13:09:24 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
+2019-11-23 13:09:30 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 13:09:49 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 13:09:49 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
+2019-11-23 13:09:49 INFO  Report:11 - Entering method::clickOnHotelLink()
+2019-11-23 13:09:49 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:11:06 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:11:06 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'true"
+2019-11-23 13:11:06 INFO  Report:11 - Entering method::enterLocality()
+2019-11-23 13:11:06 INFO  Report:11 - Entering method::enterText()
+2019-11-23 13:11:07 INFO  Report:11 - Exiting method::enterText() with 'Indiranagar, Bangalore"
+2019-11-23 13:11:07 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'Indiranagar, Bangalore"
+2019-11-23 13:11:07 INFO  Report:11 - Entering method::selectTravellerSelectionDropdown()
+2019-11-23 13:11:07 INFO  Report:11 - Entering method::selectDropdown()
+2019-11-23 13:11:07 INFO  Report:11 - Exiting method::selectDropdown() with 'true"
+2019-11-23 13:11:07 INFO  Report:11 - Exiting method::selectTravellerSelectionDropdown() with 'true"
+2019-11-23 13:11:07 INFO  Report:11 - Entering method::clickOnSearchButton()
+2019-11-23 13:11:07 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:11:13 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:11:13 INFO  Report:11 - Exiting method::clickOnSearchButton() with 'true"
+2019-11-23 13:11:13 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 13:11:16 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 13:11:16 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 13:11:17 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 13:11:17 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 13:11:17 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 13:11:17 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 13:11:21 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 13:11:55 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 13:11:55 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 13:11:55 INFO  Report:11 - Entering method::clickOnYourTripsLink()
+2019-11-23 13:11:55 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:12:01 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:12:01 INFO  Report:11 - Exiting method::clickOnYourTripsLink() with 'true"
+2019-11-23 13:12:01 INFO  Report:11 - Entering method::clickOnSignInLink()
+2019-11-23 13:12:01 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:12:01 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:12:01 INFO  Report:11 - Exiting method::clickOnSignInLink() with 'true"
+2019-11-23 13:12:01 INFO  Report:11 - Entering method::switchToSignInFrame()
+2019-11-23 13:12:01 INFO  Report:11 - Entering method::SwitchToFrame()
+2019-11-23 13:12:02 INFO  Report:11 - Exiting method::SwitchToFrame() with 'true"
+2019-11-23 13:12:02 INFO  Report:11 - Exiting method::switchToSignInFrame() with 'true"
+2019-11-23 13:12:02 INFO  Report:11 - Entering method::clickOnSignInButton()
+2019-11-23 13:12:02 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:12:04 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 13:12:04 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:12:05 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:12:05 INFO  Report:11 - Exiting method::clickOnSignInButton() with 'true"
+2019-11-23 13:12:05 INFO  Report:11 - Entering method::getError()
+2019-11-23 13:12:05 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:12:05 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 13:12:05 INFO  Report:11 - Entering method::getText()
+2019-11-23 13:12:05 INFO  Report:11 - Exiting method::getText() with 'There were errors in your submission
+Your username is a required field
+Your account password is a required field"
+2019-11-23 13:12:05 INFO  Report:11 - Exiting method::getError() with 'There were errors in your submission
+Your username is a required field
+Your account password is a required field"
+2019-11-23 13:12:05 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 13:12:08 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 13:12:08 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 13:12:10 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 13:12:10 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 13:12:11 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 13:12:11 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
+2019-11-23 13:12:15 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 13:12:35 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 13:12:35 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
+2019-11-23 13:12:35 INFO  Report:11 - Entering method::clickOneWayRadioButton()
+2019-11-23 13:12:35 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:12:36 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:12:36 INFO  Report:11 - Exiting method::clickOneWayRadioButton() with 'true"
+2019-11-23 13:12:36 INFO  Report:11 - Entering method::enterFromLocation()
+2019-11-23 13:12:36 INFO  Report:11 - Entering method::enterText()
+2019-11-23 13:12:36 INFO  Report:11 - Exiting method::enterText() with 'Bangalore"
+2019-11-23 13:12:36 INFO  Report:11 - Exiting method::enterFromLocation() with 'Bangalore"
+2019-11-23 13:12:36 INFO  Report:11 - Entering method::isFromSuggestionBoxLoaded()
+2019-11-23 13:12:36 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:12:41 INFO  Report:11 - Exception occurred in wait
+2019-11-23 13:12:41 INFO  Report:11 - Exception : Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //ul[@id='ui-id-1']//li' (tried for 5 second(s) with 500 milliseconds interval)
+2019-11-23 13:12:41 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'false"
+2019-11-23 13:12:41 INFO  Report:11 - Exiting method::isFromSuggestionBoxLoaded() with 'false"
+2019-11-23 13:12:41 INFO  Report:11 - Entering method::getSuggestionListFromOriginDropdown()
+2019-11-23 13:12:41 INFO  Report:11 - Entering method::getAllWebElements()
+2019-11-23 13:12:41 INFO  Report:11 - Exiting method::getAllWebElements() with size 0
+2019-11-23 13:12:41 INFO  Report:11 - Exiting method::getSuggestionListFromOriginDropdown() with size '0"
+2019-11-23 13:12:41 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\Vivek Vasu\git\codingRound\screenshot\testThatResultsAppearForAOneWayJourney1574494961861.png"
+2019-11-23 13:12:42 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 13:12:42 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 13:12:43 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 13:12:43 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 13:12:45 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 13:12:45 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 13:12:46 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 13:14:13 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 13:14:13 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
+2019-11-23 13:14:19 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 13:16:59 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 13:16:59 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
+2019-11-23 13:16:59 INFO  Report:11 - Entering method::clickOnHotelLink()
+2019-11-23 13:16:59 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:19:12 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:19:12 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'true"
+2019-11-23 13:19:12 INFO  Report:11 - Entering method::enterLocality()
+2019-11-23 13:19:12 INFO  Report:11 - Entering method::enterText()
+2019-11-23 13:19:15 INFO  Report:11 - Exiting method::enterText() with 'Indiranagar, Bangalore"
+2019-11-23 13:19:15 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'Indiranagar, Bangalore"
+2019-11-23 13:19:15 INFO  Report:11 - Entering method::selectTravellerSelectionDropdown()
+2019-11-23 13:19:15 INFO  Report:11 - Entering method::selectDropdown()
+2019-11-23 13:19:15 INFO  Report:11 - Exiting method::selectDropdown() with 'true"
+2019-11-23 13:19:15 INFO  Report:11 - Exiting method::selectTravellerSelectionDropdown() with 'true"
+2019-11-23 13:19:15 INFO  Report:11 - Entering method::clickOnSearchButton()
+2019-11-23 13:19:15 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:19:16 INFO  Report:11 - Exception occurred in while trying click on the element
+2019-11-23 13:19:16 INFO  Report:11 - Exception : element click intercepted: Element <input type="submit" id="SearchHotelsButton" class="booking " value="Search hotels" disabled="disabled"> is not clickable at point (856, 409). Other element would receive the click: <a id="ui-id-9" tabindex="-1">...</a>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E9AFF41', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\VIVEKV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e8c8043d84372dc36713900986c9942b
+2019-11-23 13:19:16 INFO  Report:11 - Exiting method::clickOnElement() with 'false"
+2019-11-23 13:19:16 INFO  Report:11 - Exiting method::clickOnSearchButton() with 'false"
+2019-11-23 13:19:16 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 13:19:18 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 13:19:18 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 13:19:19 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 13:19:19 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 13:19:20 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 13:19:20 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 13:19:24 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 13:19:59 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 13:19:59 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 13:19:59 INFO  Report:11 - Entering method::clickOnYourTripsLink()
+2019-11-23 13:19:59 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:19:59 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:19:59 INFO  Report:11 - Exiting method::clickOnYourTripsLink() with 'true"
+2019-11-23 13:20:00 INFO  Report:11 - Entering method::clickOnSignInLink()
+2019-11-23 13:20:00 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:20:00 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:20:00 INFO  Report:11 - Exiting method::clickOnSignInLink() with 'true"
+2019-11-23 13:20:00 INFO  Report:11 - Entering method::switchToSignInFrame()
+2019-11-23 13:20:00 INFO  Report:11 - Entering method::SwitchToFrame()
+2019-11-23 13:20:00 INFO  Report:11 - Exiting method::SwitchToFrame() with 'true"
+2019-11-23 13:20:00 INFO  Report:11 - Exiting method::switchToSignInFrame() with 'true"
+2019-11-23 13:20:00 INFO  Report:11 - Entering method::clickOnSignInButton()
+2019-11-23 13:20:00 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:20:04 INFO  Report:11 - Exception occurred in wait
+2019-11-23 13:20:04 INFO  Report:11 - Exception : Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: signInButton' (tried for 3 second(s) with 500 milliseconds interval)
+2019-11-23 13:20:04 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'false"
+2019-11-23 13:20:04 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:20:04 INFO  Report:11 - Exception occurred in while trying click on the element
+2019-11-23 13:20:04 INFO  Report:11 - Exception : no such element: Unable to locate element: {"method":"css selector","selector":"#signInButton"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E9AFF41', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\VIVEKV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5bc91e7c5bfbcaa72a32e0791d2fec65
+*** Element info: {Using=id, value=signInButton}
+2019-11-23 13:20:04 INFO  Report:11 - Exiting method::clickOnElement() with 'false"
+2019-11-23 13:20:04 INFO  Report:11 - Exiting method::clickOnSignInButton() with 'false"
+2019-11-23 13:20:04 INFO  Report:11 - Entering method::getError()
+2019-11-23 13:20:04 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:20:07 INFO  Report:11 - Exception occurred in wait
+2019-11-23 13:20:07 INFO  Report:11 - Exception : Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (5bc91e7c5bfbcaa72a32e0791d2fec65)] -> id: errors1] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E9AFF41', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\VIVEKV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5bc91e7c5bfbcaa72a32e0791d2fec65
+2019-11-23 13:20:07 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'false"
+2019-11-23 13:20:07 INFO  Report:11 - Entering method::getText()
+2019-11-23 13:20:07 INFO  Report:11 - Exiting method::getText() with '"
+2019-11-23 13:20:07 INFO  Report:11 - Exiting method::getError() with '"
+2019-11-23 13:20:08 INFO  Report:11 - Entering method::takeScreenshot() with 'C:\Users\Vivek Vasu\git\codingRound\screenshot\shouldThrowAnErrorIfSignInDetailsAreMissing1574495407997.png"
+2019-11-23 13:20:08 INFO  Report:11 - Exiting method::takeScreenshot()
+2019-11-23 13:20:08 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 13:20:11 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 13:20:11 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 13:20:11 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 13:20:11 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 13:20:12 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 13:20:12 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
+2019-11-23 13:20:17 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 13:20:37 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 13:20:37 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
+2019-11-23 13:20:37 INFO  Report:11 - Entering method::clickOneWayRadioButton()
+2019-11-23 13:20:37 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:20:37 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:20:37 INFO  Report:11 - Exiting method::clickOneWayRadioButton() with 'true"
+2019-11-23 13:20:37 INFO  Report:11 - Entering method::enterFromLocation()
+2019-11-23 13:20:38 INFO  Report:11 - Entering method::enterText()
+2019-11-23 13:20:38 INFO  Report:11 - Exiting method::enterText() with 'Bangalore"
+2019-11-23 13:20:38 INFO  Report:11 - Exiting method::enterFromLocation() with 'Bangalore"
+2019-11-23 13:20:38 INFO  Report:11 - Entering method::isFromSuggestionBoxLoaded()
+2019-11-23 13:20:38 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:20:40 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 13:20:40 INFO  Report:11 - Exiting method::isFromSuggestionBoxLoaded() with 'true"
+2019-11-23 13:20:40 INFO  Report:11 - Entering method::getSuggestionListFromOriginDropdown()
+2019-11-23 13:20:40 INFO  Report:11 - Entering method::getAllWebElements()
+2019-11-23 13:20:40 INFO  Report:11 - Exiting method::getAllWebElements() with size 1
+2019-11-23 13:20:40 INFO  Report:11 - Exiting method::getSuggestionListFromOriginDropdown() with size '1"
+2019-11-23 13:20:40 INFO  Report:11 - Entering method::enterToLocation()
+2019-11-23 13:20:40 INFO  Report:11 - Entering method::enterText()
+2019-11-23 13:20:40 INFO  Report:11 - Exiting method::enterText() with 'Delhi"
+2019-11-23 13:20:40 INFO  Report:11 - Exiting method::enterToLocation() with 'Delhi"
+2019-11-23 13:20:40 INFO  Report:11 - Entering method::isToSuggestionBoxLoaded()
+2019-11-23 13:20:40 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:20:42 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 13:20:42 INFO  Report:11 - Exiting method::isToSuggestionBoxLoaded() with 'true"
+2019-11-23 13:20:42 INFO  Report:11 - Entering method::getSuggestionListfromDestinationDropdown()
+2019-11-23 13:20:42 INFO  Report:11 - Entering method::getAllWebElements()
+2019-11-23 13:20:42 INFO  Report:11 - Exiting method::getAllWebElements() with size 1
+2019-11-23 13:20:42 INFO  Report:11 - Exiting method::getSuggestionListfromDestinationDropdown() with size '1"
+2019-11-23 13:20:42 INFO  Report:11 - Entering method::clickOnActiveDate()
+2019-11-23 13:20:42 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:20:42 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:20:42 INFO  Report:11 - Exiting method::clickOnActiveDate() with 'true"
+2019-11-23 13:20:42 INFO  Report:11 - Entering method::clickOnSearchButton()
+2019-11-23 13:20:42 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:20:43 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:20:43 INFO  Report:11 - Exiting method::clickOnSearchButton() with 'true"
+2019-11-23 13:20:43 INFO  Report:11 - Entering method::isSearchSummaryDisplayed()
+2019-11-23 13:20:43 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:20:43 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 13:20:43 INFO  Report:11 - Exiting method::isSearchSummaryDisplayed() with 'true"
+2019-11-23 13:20:43 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 13:20:45 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 13:20:45 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 13:20:47 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 13:20:47 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 13:20:48 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 13:21:46 INFO  Report:11 - Entered method::readPropertyFile with './resources/global.properties'
+2019-11-23 13:21:46 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
+2019-11-23 13:21:52 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 13:22:16 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 13:22:16 INFO  Report:11 - -------shouldBeAbleToSearchForHotels-------
+2019-11-23 13:22:17 INFO  Report:11 - Entering method::clickOnHotelLink()
+2019-11-23 13:22:17 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:24:39 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:24:39 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'true"
+2019-11-23 13:24:39 INFO  Report:11 - Entering method::enterLocality()
+2019-11-23 13:24:39 INFO  Report:11 - Entering method::enterText()
+2019-11-23 13:24:40 INFO  Report:11 - Exiting method::enterText() with 'Indiranagar, Bangalore"
+2019-11-23 13:24:40 INFO  Report:11 - Exiting method::clickOnHotelLink() with 'Indiranagar, Bangalore"
+2019-11-23 13:24:40 INFO  Report:11 - Entering method::selectTravellerSelectionDropdown()
+2019-11-23 13:24:40 INFO  Report:11 - Entering method::selectDropdown()
+2019-11-23 13:24:40 INFO  Report:11 - Exiting method::selectDropdown() with 'true"
+2019-11-23 13:24:40 INFO  Report:11 - Exiting method::selectTravellerSelectionDropdown() with 'true"
+2019-11-23 13:24:40 INFO  Report:11 - Entering method::clickOnSearchButton()
+2019-11-23 13:24:40 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:24:41 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:24:41 INFO  Report:11 - Exiting method::clickOnSearchButton() with 'true"
+2019-11-23 13:24:41 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 13:24:42 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 13:24:42 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 13:24:43 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 13:24:43 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 13:24:44 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 13:24:44 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 13:24:49 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 13:25:37 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 13:25:37 INFO  Report:11 - -------shouldThrowAnErrorIfSignInDetailsAreMissing-------
+2019-11-23 13:25:37 INFO  Report:11 - Entering method::clickOnYourTripsLink()
+2019-11-23 13:25:37 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:25:40 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:25:40 INFO  Report:11 - Exiting method::clickOnYourTripsLink() with 'true"
+2019-11-23 13:25:40 INFO  Report:11 - Entering method::clickOnSignInLink()
+2019-11-23 13:25:40 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:25:40 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:25:40 INFO  Report:11 - Exiting method::clickOnSignInLink() with 'true"
+2019-11-23 13:25:40 INFO  Report:11 - Entering method::switchToSignInFrame()
+2019-11-23 13:25:40 INFO  Report:11 - Entering method::SwitchToFrame()
+2019-11-23 13:25:40 INFO  Report:11 - Exiting method::SwitchToFrame() with 'true"
+2019-11-23 13:25:40 INFO  Report:11 - Exiting method::switchToSignInFrame() with 'true"
+2019-11-23 13:25:40 INFO  Report:11 - Entering method::clickOnSignInButton()
+2019-11-23 13:25:40 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:25:41 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 13:25:41 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:25:42 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:25:42 INFO  Report:11 - Exiting method::clickOnSignInButton() with 'true"
+2019-11-23 13:25:42 INFO  Report:11 - Entering method::getError()
+2019-11-23 13:25:42 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:25:42 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 13:25:42 INFO  Report:11 - Entering method::getText()
+2019-11-23 13:25:42 INFO  Report:11 - Exiting method::getText() with 'There were errors in your submission
+Your username is a required field
+Your account password is a required field"
+2019-11-23 13:25:42 INFO  Report:11 - Exiting method::getError() with 'There were errors in your submission
+Your username is a required field
+Your account password is a required field"
+2019-11-23 13:25:42 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 13:25:45 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 13:25:45 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 13:25:47 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 13:25:47 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 13:25:47 INFO  Report:11 - Exiting method::quitDriver() with 'true"
+2019-11-23 13:25:48 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
+2019-11-23 13:25:53 INFO  Report:11 - Entering method::openUrl()
+2019-11-23 13:26:33 INFO  Report:11 - Exiting method::openUrl() with 'true"
+2019-11-23 13:26:33 INFO  Report:11 - -------testThatResultsAppearForAOneWayJourney-------
+2019-11-23 13:26:33 INFO  Report:11 - Entering method::clickOneWayRadioButton()
+2019-11-23 13:26:33 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:26:33 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:26:33 INFO  Report:11 - Exiting method::clickOneWayRadioButton() with 'true"
+2019-11-23 13:26:33 INFO  Report:11 - Entering method::enterFromLocation()
+2019-11-23 13:26:33 INFO  Report:11 - Entering method::enterText()
+2019-11-23 13:26:34 INFO  Report:11 - Exiting method::enterText() with 'Bangalore"
+2019-11-23 13:26:34 INFO  Report:11 - Exiting method::enterFromLocation() with 'Bangalore"
+2019-11-23 13:26:34 INFO  Report:11 - Entering method::isFromSuggestionBoxLoaded()
+2019-11-23 13:26:34 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:26:37 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 13:26:37 INFO  Report:11 - Exiting method::isFromSuggestionBoxLoaded() with 'true"
+2019-11-23 13:26:37 INFO  Report:11 - Entering method::getSuggestionListFromOriginDropdown()
+2019-11-23 13:26:37 INFO  Report:11 - Entering method::getAllWebElements()
+2019-11-23 13:26:37 INFO  Report:11 - Exiting method::getAllWebElements() with size 1
+2019-11-23 13:26:37 INFO  Report:11 - Exiting method::getSuggestionListFromOriginDropdown() with size '1"
+2019-11-23 13:26:37 INFO  Report:11 - Entering method::enterToLocation()
+2019-11-23 13:26:37 INFO  Report:11 - Entering method::enterText()
+2019-11-23 13:26:37 INFO  Report:11 - Exiting method::enterText() with 'Delhi"
+2019-11-23 13:26:37 INFO  Report:11 - Exiting method::enterToLocation() with 'Delhi"
+2019-11-23 13:26:37 INFO  Report:11 - Entering method::isToSuggestionBoxLoaded()
+2019-11-23 13:26:37 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:26:39 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 13:26:39 INFO  Report:11 - Exiting method::isToSuggestionBoxLoaded() with 'true"
+2019-11-23 13:26:39 INFO  Report:11 - Entering method::getSuggestionListfromDestinationDropdown()
+2019-11-23 13:26:39 INFO  Report:11 - Entering method::getAllWebElements()
+2019-11-23 13:26:39 INFO  Report:11 - Exiting method::getAllWebElements() with size 1
+2019-11-23 13:26:39 INFO  Report:11 - Exiting method::getSuggestionListfromDestinationDropdown() with size '1"
+2019-11-23 13:26:40 INFO  Report:11 - Entering method::clickOnActiveDate()
+2019-11-23 13:26:40 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:26:40 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:26:40 INFO  Report:11 - Exiting method::clickOnActiveDate() with 'true"
+2019-11-23 13:26:40 INFO  Report:11 - Entering method::clickOnSearchButton()
+2019-11-23 13:26:40 INFO  Report:11 - Entering method::clickOnElement()
+2019-11-23 13:26:40 INFO  Report:11 - Exiting method::clickOnElement() with 'true"
+2019-11-23 13:26:40 INFO  Report:11 - Exiting method::clickOnSearchButton() with 'true"
+2019-11-23 13:26:40 INFO  Report:11 - Entering method::isSearchSummaryDisplayed()
+2019-11-23 13:26:40 INFO  Report:11 - Entering method::waitForElementToBecomeVisible()
+2019-11-23 13:26:40 INFO  Report:11 - Exiting method::waitForElementToBecomeVisible() with 'true"
+2019-11-23 13:26:40 INFO  Report:11 - Exiting method::isSearchSummaryDisplayed() with 'true"
+2019-11-23 13:26:40 INFO  Report:11 - Entering method::deleteCookies()
+2019-11-23 13:26:42 INFO  Report:11 - Exiting method::deleteCookies() with 'true"
+2019-11-23 13:26:42 INFO  Report:11 - Entering method::closeBrowser()
+2019-11-23 13:26:43 INFO  Report:11 - Exiting method::closeBrowser() with 'true"
+2019-11-23 13:26:43 INFO  Report:11 - Entering method::quitDriver()
+2019-11-23 13:26:44 INFO  Report:11 - Exiting method::quitDriver() with 'true"

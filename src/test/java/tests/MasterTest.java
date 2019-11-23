@@ -1,8 +1,7 @@
 package tests;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Properties;
 
 import org.apache.log4j.PropertyConfigurator;
@@ -32,8 +31,8 @@ public class MasterTest {
 	public String testCaseName;
 	private static ExtentReports extent;
 	public static Properties inputProperties;
-	public static ThreadLocal <ExtentTest> methods = new ThreadLocal<ExtentTest>();
-	public static ThreadLocal <ExtentTest> parentTest = new ThreadLocal<ExtentTest>();
+	public static ExtentTest methods;
+	public static  ExtentTest parentTest;
 
 	@BeforeSuite
 	public void doInitialSetUp(ITestContext context) {
@@ -48,28 +47,31 @@ public class MasterTest {
 		testCaseName = test.getName();
 		driver = DriverManager.getWebDriver(inputProperties.getProperty("browser"));
 		DriverUtilities.openUrl(driver, inputProperties.getProperty("url"));
-		ExtentTest tests = extent.createTest(testCaseName);
-		parentTest.set(tests);
+		parentTest = extent.createTest(testCaseName);
 	}
 
 	@BeforeMethod
 	public void beforeMethod(Method method) {
 		Report.info("-------" + method.getName() + "-------");
-		ExtentTest testmethod = parentTest.get().createNode(method.getName());
-		methods.set(testmethod);
+		methods = parentTest.createNode(method.getName());
 	}
 
 	@AfterMethod
 	public void afterMethod(ITestResult result) {
 		String screenshotPath = "";
-		screenshotPath = testCaseName + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()).replace(" ", "");
+		screenshotPath =   System.getProperty("user.dir") + "\\screenshot\\" + testCaseName + System.currentTimeMillis() + ".png";
 		if (result.getStatus() == ITestResult.SUCCESS) {
-			methods.get().pass("Test Passed");
+			methods.pass("Test Passed");
 		} else if (result.getStatus() == ITestResult.FAILURE) {
-			methods.get().fail(result.getThrowable());
-			DriverUtilities.takeScreenshot(driver, screenshotPath + ".png");
+			methods.fail(result.getThrowable());
+			DriverUtilities.takeScreenshot(driver, screenshotPath);
+			try {
+				methods.addScreenCaptureFromPath(screenshotPath);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		} else if (result.getStatus() == ITestResult.SKIP) {
-			methods.get().skip(result.getThrowable());
+			methods.skip(result.getThrowable());
 		}
 	}
 
