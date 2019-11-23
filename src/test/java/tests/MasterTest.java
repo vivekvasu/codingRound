@@ -32,7 +32,7 @@ public class MasterTest {
 	public String testCaseName;
 	private static ExtentReports extent;
 	public static Properties inputProperties;
-	public static ThreadLocal<ExtentTest> methods = new ThreadLocal<ExtentTest>();
+	public static ThreadLocal <ExtentTest> methods = new ThreadLocal<ExtentTest>();
 	public static ThreadLocal <ExtentTest> parentTest = new ThreadLocal<ExtentTest>();
 
 	@BeforeSuite
@@ -62,12 +62,12 @@ public class MasterTest {
 	@AfterMethod
 	public void afterMethod(ITestResult result) {
 		String screenshotPath = "";
+		screenshotPath = testCaseName + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()).replace(" ", "");
 		if (result.getStatus() == ITestResult.SUCCESS) {
 			methods.get().pass("Test Passed");
 		} else if (result.getStatus() == ITestResult.FAILURE) {
 			methods.get().fail(result.getThrowable());
-			screenshotPath = testCaseName + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
-			DriverUtilities.takeScreenshot(driver, screenshotPath.replace(" ", "") + ".png");
+			DriverUtilities.takeScreenshot(driver, screenshotPath + ".png");
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			methods.get().skip(result.getThrowable());
 		}

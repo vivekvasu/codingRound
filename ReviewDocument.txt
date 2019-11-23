@@ -4,9 +4,11 @@ Below are the review comments
 2. objects are written in the test class itself which will reduce the reusability/readability/maintainability
 3. page object classes should have added
 4. objects are defined using pagefactory concepts but the pagefactory is not initialized anywhere
-5. No framework methods used
-6. No loggers/reporting added
-7. Drivers/ dependencies are not updated one
+5. Input data is hard coded in test will be hard to maintain if need to change
+6. No framework methods used
+7. No loggers/reporting added
+8. Drivers/ dependencies are not updated one
+9. Usage of sleep methods for waiting is not at all a good way as it literally waits irrespective of the condition
 
 
 What have i done ?
@@ -20,6 +22,8 @@ What have i done ?
 8. Updated pom.xml file with latest jars
 9. Created a xml testsuite with all the tests (RegressionSuite.xml)
 10. Added the xml test suite to pom.xml to run via pom.xml
+11. Extended the capability to pass test input data from an external source which is very easy to maintain
+12. Removed hardcode thread.sleep waits with webdriver waits
 
 Find the logs in logs folder
 Find the report in reports folder
